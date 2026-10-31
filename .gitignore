@@ -1,0 +1,30 @@
+# Model weights and training checkpoints (large; download/regenerate separately)
+playground/models/
+playground/runs/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Cached outputs / embeddings (regenerate by rerunning notebooks)
+playground/outputs/
+*.npz
+*.npy
+*.pkl
+
+# Dataset
+dataset/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
